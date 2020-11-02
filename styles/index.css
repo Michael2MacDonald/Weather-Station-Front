@@ -1,0 +1,190 @@
+@media screen and (max-width: 392px) {
+  .navbar {
+    padding-left: 0px; } }
+
+@media screen and (max-width: 392px) {
+  .navbar-brand {
+    font-size: 18px; } }
+
+.container {
+  max-width: 1190px; }
+
+.navbar.navbar-expand-lg {
+  min-height: 50px; }
+
+.landing {
+  min-height: 620px;
+  overflow: hidden; }
+  @media screen and (max-width: 1008px) {
+    .landing {
+      min-height: 500px; } }
+  .landing h2 {
+    font-family: 'Helvetica', 'sans-serif';
+    font-size: 50px;
+    font-weight: bolder; }
+  .landing p {
+    font-size: 27px; }
+  .landing .btn.btn-primary,
+  .landing .btn.btn-outline-primary {
+    line-height: 2;
+    border-radius: 25.5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    min-width: 120px; }
+  @media screen and (max-width: 768px) {
+    .landing .col.col-12.col-md-6.d-flex {
+      padding-bottom: 40px;
+      padding-left: 30px;
+      padding-right: 30px; } }
+
+@media screen and (max-width: 768px) {
+  .support,
+  .contact {
+    padding-left: 10px;
+    padding-right: 10px; } }
+.about {
+  padding-top: 50px;
+  font-family: Helvetica, Arial, sans-serif; }
+  .about h2 {
+    font-size: 36px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px; }
+  .about p {
+    color: white;
+    font-size: 23px;
+    margin-bottom: 20px; }
+  @media screen and (max-width: 768px) {
+    .about .col.col-12.col-md-5 {
+      padding-bottom: 40px;
+      padding-left: 30px;
+      padding-right: 30px; } }
+
+.why_project {
+  padding-top: 50px;
+  font-family: Helvetica, Arial, sans-serif; }
+  .why_project h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px; }
+  .why_project p {
+    font-size: 23px;
+    margin-bottom: 20px; }
+
+.social {
+  padding-top: 80px;
+  font-family: Karla; }
+  .social .card {
+    background-color: #cbf6ff;
+    border-radius: 26px;
+    height: 100%;
+    border: none; }
+    .social .card img {
+      align-self: flex-start; }
+    .social .card p {
+      font-size: 38px;
+      color: #000000; }
+      @media screen and (max-width: 768px) {
+        .social .card p {
+          font-size: 24px; } }
+    .social .card .btn.btn-primary {
+      background-color: black;
+      border-radius: 25.5px;
+      width: 116px;
+      font-weight: bold;
+      margin-top: auto; }
+  .social .discord p {
+    color: #7289da; }
+  .social .discord .btn.btn-primary {
+    background-color: #7289da; }
+
+.contact {
+  padding-top: 80px; }
+  .contact .container {
+    background-color: #cbf6ff;
+    border-radius: 26px;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 50px; }
+    @media screen and (max-width: 768px) {
+      .contact .container {
+        padding-left: 15px;
+        padding-right: 15px; } }
+  .contact h2 {
+    color: #0abde3;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 40px; }
+    @media screen and (max-width: 768px) {
+      .contact h2 {
+        font-size: 34px; } }
+  .contact p {
+    font-size: 38px;
+    color: #0abde3;
+    margin-top: 20px;
+    word-wrap: break-word; }
+    @media screen and (max-width: 768px) {
+      .contact p {
+        font-size: 24px; } }
+
+.support {
+  padding-top: 80px;
+  padding-bottom: 100px; }
+  .support .container {
+    background-color: #cbf6ff;
+    border-radius: 26px;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 50px; }
+    @media screen and (max-width: 768px) {
+      .support .container {
+        padding-left: 15px;
+        padding-right: 15px; } }
+  .support h2 {
+    color: #0abde3;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 40px; }
+    @media screen and (max-width: 768px) {
+      .support h2 {
+        font-size: 34px; } }
+  .support p {
+    font-size: 38px;
+    color: #0abde3;
+    margin-top: 20px; }
+    @media screen and (max-width: 768px) {
+      .support p {
+        font-size: 24px; } }
+  .support .btn.btn-primary.donate {
+    background-color: #7289da;
+    color: white;
+    border-radius: 25.5px;
+    width: 116px;
+    font-weight: bold;
+    margin-top: auto; }
+
+footer {
+  background-color: #0abde3;
+  padding-top: 30px;
+  padding-bottom: 10px; }
+  footer ul {
+    margin-left: 50px;
+    list-style: none; }
+    @media screen and (max-width: 768px) {
+      footer ul {
+        margin-left: 10px; } }
+    footer ul li {
+      margin-top: 10px; }
+      footer ul li a {
+        text-decoration: none;
+        color: white; }
+        footer ul li a:hover {
+          color: white;
+          text-decoration: none; }
+  footer p {
+    color: white;
+    text-align: center; }
+
+/*# sourceMappingURL=index.css.map */
